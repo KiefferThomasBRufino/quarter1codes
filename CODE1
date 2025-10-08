@@ -1,0 +1,7 @@
+print("Start program")
+x = float(input("Enter num1"))
+y = float(input("Enter num2"))
+z = float(input("Enter num3"))
+sum = x + y + z
+print(f"The sum of the three numbers is: {sum:.2f}")
+print("End program")
