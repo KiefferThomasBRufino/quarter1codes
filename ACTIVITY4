@@ -1,0 +1,19 @@
+fullname = input("Enter your full name separated by commas")
+splitname = fullname.split(',')
+x = splitname[0]
+y = splitname[1]
+z = splitname[2]
+
+xstrip = x.strip()
+ystrip = y.strip()
+zstrip = z.strip()
+
+xcap = xstrip.capitalize()
+ycap = ystrip.capitalize()
+zcap = zstrip.capitalize()
+
+yshort = ycap[0].upper() + "."
+
+finalname = f"{zcap}, {xcap} {yshort}"
+
+print(f"Your formal name is {finalname}")
