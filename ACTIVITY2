@@ -1,0 +1,12 @@
+x1 = float(input("Enter x1: "))
+x2 = float(input("Enter x2: "))
+y1 = float(input("Enter y1: "))
+y2 = float(input("Enter y2: "))
+
+distance = (x2 - x1)*(x2 - x1) + (y2 - y1)*(y2 - y1)
+
+import math
+finaldistance = math.sqrt(distance)
+   
+    
+print("The distance between the two points is", round(finaldistance, 2))
